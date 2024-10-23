@@ -1,1 +1,2 @@
 # MyLabOnetoMany
+LabOneToMany industry standards tested on 23 10 24 test data 1)post http://localhost:7071/EmpApi1toMany/v1.2CG/employees { "emp_id": 101, "firstName":"Suresh", "lastName":"sankar", "emailId":"sankar1@gmail.com", "mobileNumbers":[{"Mob_id":101, "mob_number":12345, "serviceProvider":"Jio"},{"Mob_id":102, "mob_number":12345, "serviceProvider":"Jio"}] } 2)get http://localhost:7071/EmpApi1toMany/v1.2CG/employees 3)put 4)delete http://localhost:7071/EmpApi1toMany/v1.2CG/employees/1
